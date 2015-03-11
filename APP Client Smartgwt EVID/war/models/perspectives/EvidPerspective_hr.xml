@@ -1,0 +1,32 @@
+<list>
+<perspective>
+    <icon>default</icon>
+    <name>evidencijadolazaka</name>
+    <displayName>Evidencija dolazaka</displayName>
+    <viewDisplayName>Evidencija dolazaka</viewDisplayName>
+ </perspective>
+ <perspective>
+    <icon>default</icon>
+    <name>evidencijapotvrda</name>
+    <displayName>Evidencija potvrda</displayName>
+    <viewDisplayName>Evidencija potvrda</viewDisplayName>
+ </perspective>
+ <perspective>
+    <icon>default</icon>
+    <name>evidencijamjesecna</name>
+    <displayName>Mjesečna evidencija</displayName>
+    <viewDisplayName>Mjesečna evidencija</viewDisplayName>
+ </perspective>
+ <perspective>
+    <icon>default</icon>
+    <name>evidencijaovlasti</name>
+    <displayName>Ovlasti</displayName>
+    <viewDisplayName>Ovlasti</viewDisplayName>
+ </perspective>
+ <perspective>
+    <icon>default</icon>
+    <name>evidencijago</name>
+    <displayName>Godišnji odmor</displayName>
+    <viewDisplayName>Godišnji odmor</viewDisplayName>
+ </perspective>
+</list>

@@ -1,0 +1,14 @@
+<list>
+<perspective>
+    <icon>default</icon>
+    <name>obracun_kamate</name>
+    <displayName>Obračun kamate</displayName>
+</perspective>
+
+<perspective>
+    <icon>default</icon>
+    <name>anuitetski_obracun</name>
+    <displayName>Anuitetski obračun</displayName>
+</perspective>
+</list>
+

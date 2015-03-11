@@ -1,0 +1,8 @@
+<list>
+	<perspective>
+		<icon>default</icon>
+		<name>blokade_po</name>
+		<displayName>PO blokade</displayName>
+		<viewDisplayName>Blokade pravne osobe</viewDisplayName>
+	</perspective>
+</list>

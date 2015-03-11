@@ -1,0 +1,15 @@
+<list>
+	<perspective>
+		<icon>upisnice</icon>
+		<name>upisnice</name>
+		<displayName>Upisnice</displayName>
+		<viewDisplayName>Upisnice</viewDisplayName>
+	</perspective>
+	<perspective>
+		<icon>dionicari</icon>
+		<name>dionicari</name>
+		<displayName>Dioničari</displayName>
+		<viewDisplayName>Dioničari Jadranske Banke d.d. Šibenik
+		</viewDisplayName>
+	</perspective>
+</list>

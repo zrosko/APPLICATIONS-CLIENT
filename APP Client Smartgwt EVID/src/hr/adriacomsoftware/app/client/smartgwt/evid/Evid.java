@@ -72,6 +72,6 @@ public class Evid extends AS2GwtDesktop {
 	
 //	protected String getDefaultViewDisplayName(){
 //		return EvidPerspectiveModel.DEFAULT_PERSPECTIVE_DISPLAY_NAME;
-//
-//	}
+// 
+//	} //sysout
 }

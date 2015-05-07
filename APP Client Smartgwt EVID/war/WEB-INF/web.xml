@@ -103,8 +103,8 @@
 	    <filter-name>AS2AuthenticationFilter</filter-name>
 	    <url-pattern>/*</url-pattern>
 	</filter-mapping>
-	
-		<filter>
+
+	<filter>
 		<filter-name>AS2LoggingFilter</filter-name>
 		<filter-class>hr.as2.inf.server.logging.servlets.filter.AS2LoggingFilter</filter-class>
 		<init-param>
@@ -113,10 +113,20 @@
 		</init-param>
 	</filter>
 	<filter-mapping>
-			<filter-name>AS2LoggingFilter</filter-name>
-			<url-pattern>/*</url-pattern>
+		<filter-name>AS2LoggingFilter</filter-name>
+		<url-pattern>/*</url-pattern>
 	</filter-mapping>
-	
+
+	<filter>
+		<filter-name>AS2CacheControlFilter</filter-name>
+		<filter-class>hr.as2.inf.server.core.AS2CacheControlFilter</filter-class>
+	</filter>
+
+	<filter-mapping>
+		<filter-name>AS2CacheControlFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+  
   <!-- Default page to serve -->
   <welcome-file-list>
     <welcome-file>evid.html</welcome-file>

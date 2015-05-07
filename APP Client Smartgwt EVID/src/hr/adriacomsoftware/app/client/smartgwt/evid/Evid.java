@@ -1,8 +1,5 @@
 package hr.adriacomsoftware.app.client.smartgwt.evid;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import hr.adriacomsoftware.app.client.smartgwt.evid.models.EvidPerspectiveModel;
 import hr.adriacomsoftware.app.client.smartgwt.evid.models.EvidencijaDolazakaSifrarnikModel;
 import hr.adriacomsoftware.app.client.smartgwt.evid.views.EvidencijaDolazakaView;
@@ -13,6 +10,9 @@ import hr.adriacomsoftware.app.client.smartgwt.evid.views.EvidencijaPotvrdaView;
 import hr.adriacomsoftware.inf.client.smartgwt.desktop.views.AS2ContextArea;
 import hr.adriacomsoftware.inf.client.smartgwt.desktop.views.AS2GwtDesktop;
 import hr.adriacomsoftware.inf.client.smartgwt.desktop.views.AS2NavigationPane;
+
+import java.util.ArrayList;
+import java.util.List;
 
 import com.smartgwt.client.data.DataSource;
 import com.smartgwt.client.widgets.Canvas;
@@ -72,6 +72,6 @@ public class Evid extends AS2GwtDesktop {
 	
 //	protected String getDefaultViewDisplayName(){
 //		return EvidPerspectiveModel.DEFAULT_PERSPECTIVE_DISPLAY_NAME;
-//
-//	}
+// 
+//	} 
 }

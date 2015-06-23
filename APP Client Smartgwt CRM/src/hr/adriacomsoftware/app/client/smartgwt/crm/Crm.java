@@ -3,6 +3,7 @@ package hr.adriacomsoftware.app.client.smartgwt.crm;
 import hr.adriacomsoftware.app.client.smartgwt.blokade.po.models.BlokadePoSifrarnikModel;
 import hr.adriacomsoftware.app.client.smartgwt.blokade.po.views.BlokadePoView;
 import hr.adriacomsoftware.app.client.smartgwt.crm.models.BlokadePerspectiveModel;
+import hr.adriacomsoftware.app.client.smartgwt.crm.models.ObrtniciPerspectiveModel;
 import hr.adriacomsoftware.inf.client.smartgwt.desktop.views.AS2ContextArea;
 import hr.adriacomsoftware.inf.client.smartgwt.desktop.views.AS2GwtDesktop;
 import hr.adriacomsoftware.inf.client.smartgwt.desktop.views.AS2NavigationPane;
@@ -21,7 +22,7 @@ public class Crm extends AS2GwtDesktop {
 	@Override
 	protected void getNavigationPaneSections(AS2NavigationPane navigationPane) {
 		navigationPane.addSection(BlokadePerspectiveModel.getInstance().getSectionName(), BlokadePerspectiveModel.getInstance());
-//		navigationPane.addSection(ObrtniciPerspectiveModel.getInstance().getSectionName(), ObrtniciPerspectiveModel.getInstance());
+		navigationPane.addSection(ObrtniciPerspectiveModel.getInstance().getSectionName(), ObrtniciPerspectiveModel.getInstance());
 	}
 	
 	@Override
@@ -50,8 +51,8 @@ public class Crm extends AS2GwtDesktop {
 //			return new BlokadePoView(name);
 //		else if(name.equals("predstecajne"))
 //			return new BlokadePoView(name);
-//		else if(name.equals("obrtnici"))
-//			return new BlokadePoView(name);
+		else if(name.equals("obrtnici"))
+			return new BlokadePoView(name);
 //		else if(name.equals("ob_bonitet"))
 //			return new BlokadePoView(name);
 //		else if(name.equals("krediti_gr"))
